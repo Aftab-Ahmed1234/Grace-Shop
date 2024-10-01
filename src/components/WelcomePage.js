@@ -10,7 +10,6 @@ return (
        
       <HeroSection/>
       <AllProducts/>
-
       <Contact/>
 
     </div>

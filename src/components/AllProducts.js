@@ -34,7 +34,7 @@ function AllProducts() {
                        }
                    </div>: product.map(p=> {
                        return <div className="col-sm-12 mt-5 pt-5 col-md-12 col-lg-4 "  >
-                           <div className="card d-flex my-5 justify-content-center align-items-center mt-5  " style={{width: "20rem", height:"30rem", marginLeft:"2rem"}}  >
+                           <div className="card d-flex my-5 justify-content-center align-items-center mt-5  " style={{width: "20rem", height:"30rem", marginLeft:"8rem"}}  >
                                <img className="card-img-top " style={{width:"20rem", height:"20rem", paddingTop:"2rem", paddingLeft:"2rem", paddingRight:"2rem"}} src={p.image} alt="Card image cap"/>
                                <div className="card-body ">
                                    <h5 className="card-title " style={{fontSize:"16px" , }}>{p.title}</h5>

@@ -38,5 +38,5 @@ code {
   width: 1366px;
   }
   html, body {
-    overflow: hidden;
+    overflow-x: hidden;
   }
